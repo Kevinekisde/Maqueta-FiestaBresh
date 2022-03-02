@@ -4,6 +4,7 @@ import Fechas from './sections/Fechas.js'
 import Events from "./sections/Events.js"
 import Images from "./sections/Images.js"
 import About from "./sections/About.js"
+import s from './styles/App.module.css'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 
 function App() {

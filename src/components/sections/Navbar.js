@@ -24,6 +24,10 @@ const Navbar = () => {
                 </div>
                 <style jsx>{`
                   .div{
+                    position: -webkit-sticky;
+                    position: sticky;
+                    top: -0.5px;
+                    z-index:99;
                       display:flex;
                       background-image: linear-gradient(
                         to left,

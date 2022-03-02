@@ -4,6 +4,7 @@ import Fechas from './sections/Fechas.js'
 import Events from "./sections/Events.js"
 import Images from "./sections/Images.js"
 import About from "./sections/About.js"
+import Home from "./sections/Home.js"
 import s from './styles/App.module.css'
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
 
@@ -14,6 +15,7 @@ function App() {
         <BrowserRouter>
         <Navbar/>
         <Routes>
+        <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
             <Route path='/fechas' element= {<Fechas/>} />
             <Route path="/events" element= {<Events/>}/>

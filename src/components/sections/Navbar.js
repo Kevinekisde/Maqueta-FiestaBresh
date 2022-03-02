@@ -18,7 +18,7 @@ const Navbar = () => {
                             <li><Link to="/fechas" style={stylea}>Fotos</Link></li>
                             <img src="http://www.fiestabresh.com/img/classic.png" alt=""/>
                             <li><Link to="/events" style={stylea}>Eventos</Link></li>
-                            <li><Link to="/about" style={stylea}>Sobre Nosotros</Link></li>
+                            <li><Link to="/about" style={stylea}>Nosotros</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -45,6 +45,7 @@ const Navbar = () => {
                       gap:60px;
                       display:flex;
                       align-items: center;
+                      justify-content: center;
                       list-style:none;
                       color: #FFFFFF;
                       font-size: 20px;

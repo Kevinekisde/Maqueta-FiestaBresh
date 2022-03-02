@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.logoimg {
+    width:50%;
+}
+
+.post {
+    width: 50%;
+    border: 3px solid;
+    padding: 20px;
+}
+
+.desc {
+    font-size: 30px;
+
+}
+
+.imagenimg {
+    margin-top: 20px;
+    width: 100%;
+    height:auto;
+}
